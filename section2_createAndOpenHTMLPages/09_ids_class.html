@@ -7,19 +7,44 @@
   <title>Div, span, id and class</title>
   <style>
     .card {
-        border: 1px solid #ccc;
-        background: #f4f4f4;
-        padding: 20px;
-        margin-bottom: 10px;
-      }
+      border: 1px solid #ccc;
+      background: #f4f4f4;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
 
     .enhance {
       color: yellow;
-      background-color:black;
+      background-color: black;
     }
   </style>
 </head>
 <body>
- 
+  <div id="main-header">
+    <h1>My Website</h1>
+    <p>A site about me</p>
+  </div>
+  <ul id="main-nav">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+  <div id="about" class="card">
+    <h3>About</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia recusandae dicta amet dolore iure commodi qui. Quaerat, labore rem repudiandae illo asperiores fugiat cum fuga, quasi nemo, necessitatibus iste ullam facere porro? Sapiente, nemo quasi magnam nobis cum amet ad possimus magni quis numquam similique eius eum corrupti quaerat placeat!</p>
+  </div>
+  <div id="contact" class="card">
+    <h3>Contact Me</h3>
+    <ul>
+      <li>Address: 50 Main St</li>
+      <li>Phone 555-555-5555</li>
+      <li>email: me@google.com</li>
+    </ul>
+  </div>
+
+  <div id="footer">
+    <p>Copyright 2019</p>
+  </div>
+
 </body>
 </html>

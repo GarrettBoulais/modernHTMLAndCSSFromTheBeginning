@@ -7,6 +7,68 @@
   <title>Forms & Input</title>
 </head>
 <body>
-  
+  <!-- action = where form is submitted to -->
+  <form action="">
+    <!-- text -->
+    <div>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name">
+    </div>
+
+    <!-- email -->
+    <div>
+      <label for="email">email</label>
+      <input type="email" name="email" id="email">
+    </div>
+
+    <!-- textarea -->
+    <div>
+      <label for="message">message</label>
+      <textarea name="message" id="message" cols="50" rows="5"></textarea>
+    </div>
+
+    <!-- select -->
+    <div>
+      <label for="sex">Sex</label>
+      <select name="sex" id="sex">
+        <option value="male">Male</option>
+        <option value="female" selected>female</option>
+        <option value="other">other</option>
+      </select>
+    </div>
+
+    <!-- number -->
+    <div>
+      <label for="age">Age</label>
+      <input type="number" name="age" id="age">
+    </div>
+
+    <!-- date -->
+    <div>
+      <label for="birthdate">Birthdate</label>
+      <input type="date" name="birthdate" id="birthdate">
+    </div>
+
+    <!-- Radio -->
+    <div>
+      <label for="membership">Membership</label>
+      <input type="radio" name="membership" value="simple" id="membership">Simple
+      <input type="radio" name="membership" value="standard" id="membership" checked>Standard
+      <input type="radio" name="membership" value="super" id="membership">Super
+    </div>
+
+    <!-- checkbox -->
+    <div>
+      <label for="membership">I Like...</label>
+      <input type="checkbox" name="likes" value="simple" id="bike">Bike
+      <input type="checkbox" name="likes" value="standard" id="car">car
+      <input type="checkbox" name="likes" value="super" id="boat">boat
+    </div>
+
+    <!-- button submit -->
+    <input type="submit" value="Submit">
+    <!-- <button type="submit">Submit</button> -->
+    <button type="reset">Reset</button>
+  </form>
 </body>
 </html>
