@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vh & Vw</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header {
+      background: #333 url("https://images.unsplash.com/photo-1567081011888-9e316bd1304c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60") no-repeat center center/cover;
+      color: #fff;
+      height: 100vh;
+      text-align: center;
+      padding: 2rem;
+      padding-top: 15rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+    }
+
+    header p {
+      margin: 1rem 0;
+    }
+
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      background: #f4f4f4;
+      color: #333;
+      padding: 0.75rem 2rem;
+    }
+
+    section {
+      padding: 2rem;
+    }
+
+    @media(max-height: 450px) {
+      header {
+        padding-top: 5rem;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome To Our Website</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor dolorum aliquid officia enim! Omnis aspernatur voluptate eius, magnam rerum temporibus.</p>
+    <a href="#" class="btn">Find Out More</a>
+  </header>
+
+  <section>
+    <h3>About our Company</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque incidunt voluptatem harum distinctio corporis sapiente tenetur quisquam dolorum voluptatibus cupiditate.</p>
+  </section>
+</body>
+</html>
